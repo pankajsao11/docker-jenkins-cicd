@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     // Clone the Terraform code from GitHub
-                    git branch: main, url: 'https://github.com/pankajsao11/serverless-webapp'
+                    git branch: main, url: 'https://github.com/pankajsao11/serverless-webapp.git'
                 }
             }
         }
@@ -48,7 +48,7 @@ pipeline {
             steps {
                 script {
                     // Generate and display the Terraform execution plan
-                    sh 'terraform plan -out=tfplan'
+                    sh 'terraform plan'
                 }
             }
         }
@@ -63,7 +63,7 @@ pipeline {
             steps {
                 script {
                     // Apply the Terraform changes
-                    sh 'terraform apply -auto-approve tfplan'
+                    sh 'terraform apply -auto-approve'
                 }
             }
         }
