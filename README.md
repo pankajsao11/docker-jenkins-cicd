@@ -2,3 +2,14 @@ In this repo I've used Ubuntu linux for installing docker and creating container
 
 # docker-jenkins-cicd
 CI/CD pipeline for Serverless Webapp {https://github.com/pankajsao11/serverless-webapp} using Docker-Jenkins
+
+```
+1. creating user
+$ sudo adduser docker-admin
+
+2. adding to docker group
+$ sudo usermod -aG docker docker-admin
+
+3. switch user
+$ sudo su docker-admin
+```
