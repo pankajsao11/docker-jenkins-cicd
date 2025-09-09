@@ -17,3 +17,10 @@ $ sudo su docker-admin
 ## Hosting Jenkins on EC2 server using Docker
 Ensure to add port 8080 in security group inbound rule.
 <img width="1355" height="636" alt="image" src="https://github.com/user-attachments/assets/c4d2b921-0451-4ea0-89e8-5bea78619362" />
+
+
+<img width="1365" height="648" alt="image" src="https://github.com/user-attachments/assets/e50a4ff7-60b1-4761-88e3-cc5b3713bf0f" />
+
+
+<img width="1365" height="721" alt="image" src="https://github.com/user-attachments/assets/bb57430a-6cc6-407f-a86c-57b2660ed92e" />
+
