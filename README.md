@@ -24,3 +24,5 @@ Ensure to add port 8080 in security group inbound rule.
 
 <img width="1365" height="721" alt="image" src="https://github.com/user-attachments/assets/bb57430a-6cc6-407f-a86c-57b2660ed92e" />
 
+Note: In Docker, the internal port refers to the port inside the container on which the application listens, while the external port (also called the host port) is the port on the host machine mapped to the internal container port.
+-p host(external) port: container(internal) port {port mapping syntax}
